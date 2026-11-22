@@ -1,0 +1,83 @@
+{
+  "flags": {
+    "showDashMarqueeTextF": true,
+    "showDashMarqueeTextOnlyAadhaarConsentForGraceUser":true,
+    "showDashMarqueeTextOnlyAadhaarConsentForNonGraceUser":true,
+    "showGPFlashTextF": true,
+    "showSignatureF": true,
+    "showMaintainanceF": false,
+    "showHeaderF": true,
+    "showErrEsignF": false,
+    "showUnitUserInactiveF":true,
+    "showDSCMsgF":true
+  },
+  "common": {
+    "StateCode": [1, 2, 4, 5, 6, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20, 22, 23, 26, 27, 28, 30, 31, 34, 35, 36, 37, 38],
+    "headerL": "The portal is open for registration of birth and death events that occurred in the States/UTs of ‘Chandigarh’, ‘Chhattisgarh’, ‘Andaman & Nicobar Islands’, ‘Lakshadweep‘, ‘Arunachal Pradesh’, ‘Nagaland’, ‘Meghalaya’, ‘Dadra and Nagar Haveli and Daman and Diu’, ‘Andhra Pradesh’, ‘Mizoram’, ‘Assam’, ‘Madhya Pradesh’, ‘Tripura’, ‘Uttarakhand’, ‘Bihar’, ‘Uttar Pradesh’, ‘Ladakh’, ‘Maharashtra’, ‘Sikkim’, ‘Haryana’, ‘Jammu and Kashmir’, ‘Himachal Pradesh’, ‘Jharkhand’ , ‘Manipur’, 'Gujarat', 'Puducherry', 'Delhi Cantonment Board', 'Goa' and 'Telangana(GHMC)' only.",
+    "EsignErrT": "Service Unavailable",
+    "signatureL": "Dear User, You can choose default signature type in your profile to ease the signature process while approving and registering events.",
+    "dashMarqueeTextArr": [
+      {
+        "eText": "Notice: Facing DSC issues? Please uninstall the existing version, then navigate to the top menu bar, select User Management > View Profile, click on the Digital Key tab, and download the updated tool, and install it.",
+        "hText": "सूचना: क्या आपको DSC उपयोग करने में कठिनाई आ रही है? कृपया वर्तमान संस्करण को अनइन्स्टॉल करें, तत्पश्चात शीर्ष मेनू बार में User Management > View Profile पर जाएं, Digital Key टैब पर क्लिक करें और अपडेटेड टूल डाउनलोड करें और उसे इन्स्टॉल करें।"
+      }
+    ],
+    "dashMarqueeTextOnlyAadhaarConsentForGraceUserArr": [
+      {
+        "eText": "Your profile requires Aadhaar authentication. Please complete the process within {{dayPeriod}} days by navigating to User Management >> View Profile and entering your Aadhaar number. Failure to complete the authentication within the specified period will result in temporary suspension of your account services until verification is successfully completed.",
+        "hText": "आपकी प्रोफ़ाइल के लिए आधार प्रमाणीकरण आवश्यक है। कृपया {{dayPeriod}} दिनों के भीतर User Management >> View Profile में जाकर अपना आधार नंबर दर्ज करके प्रक्रिया पूर्ण करें। निर्धारित अवधि के भीतर प्रमाणीकरण पूरा न करने पर, सत्यापन पूर्ण होने तक आपके अकाउंट की सेवाएँ अस्थायी रूप से निलंबित कर दी जाएँगी।"
+      }
+    ],
+    "dashMarqueeTextOnlyAadhaarConsentForNonGraceUserArr": [
+      {
+        "eText": "Aadhaar authentication is required to access the full functionality of the CRS Portal. Please complete the authentication process by navigating to User Management >> View Profile and adding your Aadhaar number to proceed.",
+        "hText": "सीआरएस पोर्टल की सभी सुविधाओं का उपयोग करने के लिए आधार प्रमाणीकरण आवश्यक है। कृपया आगे बढ़ने के लिए यूज़र मैनेजमेंट >> व्यू प्रोफाइल में जाकर अपना आधार नंबर दर्ज करके प्रमाणीकरण प्रक्रिया पूर्ण करें।"
+      }
+    ],
+    "GPFlashTextArr": [
+      {
+        "eText": "A General Public user is permitted to submit a maximum of four events in total.",
+        "hText": "एक सामान्य सार्वजनिक उपयोगकर्ता को कुल मिलाकर अधिकतम चार इवेंट सबमिट करने की अनुमति है।"
+      }
+    ],
+    "maintainenceL": "Portal will not be available due to maintenance activity from 13-11-2026 06:00 PM to 15-11-2026 08:00 AM",
+    "maintainenceLL":"The portal will be unavailable due to scheduled maintenance daily from 06-11-2026 to 08-11-2026, between 12:00 AM and 6:00 AM.",
+    "unitUserInactiveMsg": "If no login activity is recorded for a period of 90 days, the respective Registrar/Sub-Registrar of the Registration Unit will be automatically marked as Inactive.",
+    "DSCMsg":"Digital Signature Certificate (DSC) has been enabled in the CRS Portal. Users may utilize DSC for the approval process."
+  },
+  "pilotApplicableStates": [1, 2, 4, 5, 6, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20, 22, 23, 26, 27, 28, 31, 34, 35, 36, 38],
+  "appLinks":{
+    "playStoreLink":"https://play.google.com/store/apps/details?id=com.crs.orgi&hl=en&pli=1",
+    "appleStoreLink":"https://apps.apple.com/us/app/crs-orgi/id6449486040"
+  },
+  "annualReportYear": {
+    "crs": {
+      "start": 2009,
+      "end": 2024
+    },
+    "mccd": {
+      "start": 2009,
+      "end": 2024
+    }
+  },
+  "browserSecurityConfig": {
+    "disableRightClick": true,
+    "disableF12": true,
+    "disableCtrlShiftI": true,
+    "disableCtrlShiftJ": true,
+    "disableCtrlShiftC": true,
+    "disableCtrlU": true
+  },
+  "ZRApplicableDistricts": [741, 439, 468, 471, 473, 474, 475, 476, 477, 479, 481, 482, 483, 486, 490, 491, 492, 668],
+  
+  "aadhaarGraceUserMessageForAuthentication": "To ensure uninterrupted access to CRS Portal services, kindly complete the pending Aadhaar authentication for your profile on or before <span>1st September 2026</span>. If the authentication is not completed within the stipulated period, access to portal services will be disabled until the verification process is successfully completed.",
+  "aadhaarNonGraceUserMessageForAuthentication": "Welcome to the CRS Portal. To access all portal services, kindly complete the Aadhaar authentication process for your profile",
+  "aadhaarGracePeriodLastDate": "2026/09/01",
+  "aadhaarGraceExceptionDetails":{
+    "stateId":37,
+    "GraceUserMessageForAuthentication":"To ensure uninterrupted access to CRS Portal services, kindly complete the pending Aadhaar authentication for your profile on or before <span>15th September 2026</span>. If the authentication is not completed within the stipulated period, access to portal services will be disabled until the verification process is successfully completed.",
+    "NonGraceUserMessageForAuthentication": "Welcome to the CRS Portal. To access all portal services, kindly complete the Aadhaar authentication process for your profile",
+    "GracePeriodLastDate": "2026/10/15"
+  },
+  "DOCUMENT_VALIDATION_ENABLED": false
+}
